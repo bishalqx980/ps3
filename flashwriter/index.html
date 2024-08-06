@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>PS3 CFW - flashwriter</title>
+</head>
+<body>
+	<script>
+		var ua = navigator.userAgent;
+		var uaStringCheck = ua.substring(ua.indexOf("5.0 (") + 5, ua.indexOf(") Apple") - 7);
+		var fwVersion = ua.substring(ua.indexOf("5.0 (") + 19, ua.indexOf(") Apple"));
+
+		if (uaStringCheck == "PLAYSTATION") {
+			supported_fw = ["4.90", "4.91"];
+			if (fwVersion in supported_fw) {
+				window.location = fwVersion + "/index.html";
+			} else {
+				alert("Unsupported firmware version\nYour system firmware: " + fwVersion);
+			}
+		} else {
+			alert("You aren't on a PlayStation 3 System!");
+			window.location.reload();
+		}
+	</script>
+</body>
+</html>
