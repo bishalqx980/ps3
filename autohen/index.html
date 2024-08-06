@@ -1,20 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>
-    body {
-    width: 800px;
-    max-width: 100%;
-    }
-</style>
-<script>
-    var ua = navigator.userAgent;
-    var fwVersion = ua.substring(ua.indexOf("5.0 (") + 19, ua.indexOf(") Apple"));
-    window.location.href = 'https://bishalqx980.github.io/ps3/autohen/' + fwVersion + '/index.html';
-</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoHEN</title>
 </head>
-<noscript>
-    You need to turn on Javascript before using the installer!
-</noscript>
+<body>
+    <script>
+        var user_agent = navigator.userAgent;
+        var fwVersion = user_agent.substring(user_agent.indexOf("5.0 (") + 19, user_agent.indexOf(") Apple"));
+        window.location.href = 'https://bishalqx980.github.io/ps3/autohen/' + fwVersion + '/index.html';
+    </script>
+</body>
 </html>
