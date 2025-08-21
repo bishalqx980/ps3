@@ -4,60 +4,129 @@
     <meta charset="UTF-8">
     <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
     <title>PS3Xploit</title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="./main.css">
 </head>
 <body>
+    <!-- Original marquee element (hidden by default) -->
     <marquee id="headline">
         Note (21/05/2025): This site only supports AlternateHEN FW 4.90 to 4.92 | We have removed other firmware support
         & AutoHEN, HenEnabler, HenInstaller has been removed.
     </marquee>
 
-    <div class="main_div">
-        <img src="./ps3xploit.png" alt=""><hr>
-        <h1>PS3Xpliot</h1>
-
-        <p style="color: red;font-size: 18px;"><i>
-            <b><u>Note (21/05/2025):</u></b> We have removed other firmware support<br>
-            & AutoHEN, HenEnabler, HenInstaller has been removed.
-        </i></p>
-
-        <h2>PS3 HEN Alternate: FW <span style="color: green;">4.90 to 4.92</span></h2>
-        <a href="./hen_installer/index.html" style="color: rgb(0, 132, 255);font-size: 30px;">PS3 Hen Installer</a><br><br>
-        <a href="./hen_alternate/index.html" style="color: rgb(0, 132, 255);font-size: 30px;">PS3 Hen Alternate</a><br><br>
-
-        <hr>
-        <h2>Other links</h2>
-
-        <a href="https://github.com/bishalqx980/ps3hen_alternate">Other firmware can be found here (selfhost)</a>
-        <br><br>
-        <a href="https://ps3xploit.me/">PS3Xploit Official Site</a>
-
-        <h2>Required Files</h2>
-        <a href="https://mega.nz/file/o7RhmRTI#cILw0yY2M0sdRyySoSQcDXDJhQp7RTUWY9V-irb7RRo">4.92.1 HFW (Hybrid Firmware) (thanks Joonie)</a>
-
-        <h2>Credits</h2><hr>
-        <a href="https://ps3xploit.me/">The PS3Xploit Team</a>
-        <p style="font-size: 18px;font-style: italic;font-weight: bold;color: rgb(0, 183, 255);">
-            Many thanks to xerpi for porting the memory leak exploit to ps3,<br>
-            zecoxao & Joonie for their early & renewed support,<br>
-            mysis for documenting vsh/lv2,<br>
-            kakaroto for the PS3 IDA tools, naherwert for scetool,<br>
-            Rebug Team for producing/updating the only CFW adequate to develop this work,<br>
-            Cobra team for sharing their CobraUSB source,<br>
-            the psdevwiki team of course,<br>
-            STLcardsWS for his long standing contribution & ever constant support.<br>
-            We also wish to thank all the ps3 community hackers/devs,<br>
-            past & present,who directly or indirectly helped us put this project together, you know who you are...<br><br>
-
-            Official Support Forum:<br>
-            <a href="http://www.psx-place.com/forums/PS3Xploit/">http://www.psx-place.com/forums/PS3Xploit/</a><br><br>
-
-            Social Media:<br>
-            <a href="https://gab.com/PS3Xploit">https://gab.com/PS3Xploit</a><br><br>
-
-            <small>PS3Xploit Logo by StarMelter</small>
-        </p>
-        
+    <div class="announcement-bar">
+        <div class="announcement-content">
+            ⚠️ Note (21/05/2025): This site only supports AlternateHEN FW 4.90 to 4.92 | We have removed other firmware support & AutoHEN, HenEnabler, CFW-Flash Writer has been removed.
+        </div>
     </div>
+
+    <div class="main-container">
+        <div class="main_div">
+            <div class="logo-container">
+                <img src="./ps3xploit.png" alt="PS3Xploit Logo">
+            </div>
+            
+            <h1 class="main-title">PS3Xploit</h1>
+            
+            <div class="note-box">
+                <div class="note-header">
+                    <span class="note-title">Note (21/05/2025):</span>
+                </div>
+                <div class="note-content">
+                    We have removed other firmware support<br>
+                    & AutoHEN, HenEnabler, CFW-Flash Writer has been removed.
+                </div>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">PS3 HEN Alternate: FW <span class="fw-version">4.90 to 4.92</span></h2>
+                <div class="button-grid">
+                    <a href="./hen_installer/index.html" class="cta-button">
+                        PS3 Hen Installer
+                    </a>
+                    <a href="./hen_alternate/index.html" class="cta-button">
+                        PS3 Hen Alternate
+                    </a>
+                </div>
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="section">
+                <h2 class="section-title">Other Links</h2>
+                <div class="link-list">
+                    <a href="https://github.com/bishalqx980/ps3" class="link-item">
+                        Other firmware can be found here (selfhost)
+                    </a>
+                    <a href="https://ps3xploit.me/" class="link-item">
+                        PS3Xploit Official Site
+                    </a>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">Required Files</h2>
+                <a href="https://mega.nz/file/o7RhmRTI#cILw0yY2M0sdRyySoSQcDXDJhQp7RTUWY9V-irb7RRo" class="link-item">
+                    4.92.1 HFW (Hybrid Firmware) (thanks Joonie)
+                </a>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">Credits</h2>
+                <div class="divider"></div>
+                <a href="https://ps3xploit.me/" class="link-item">The PS3Xploit Team</a>
+                
+                <div class="credits">
+                    <p>Many thanks to xerpi for porting the memory leak exploit to ps3,</p>
+                    <p>zecoxao & Joonie for their early & renewed support,</p>
+                    <p>mysis for documenting vsh/lv2,</p>
+                    <p>kakaroto for the PS3 IDA tools, naherwert for scetool,</p>
+                    <p>Rebug Team for producing/updating the only CFW adequate to develop this work,</p>
+                    <p>Cobra team for sharing their CobraUSB source,</p>
+                    <p>the psdevwiki team of course,</p>
+                    <p>STLcardsWS for his long standing contribution & ever constant support.</p>
+                    <p>We also wish to thank all the ps3 community hackers/devs,</p>
+                    <p>past & present,who directly or indirectly helped us put this project together, you know who you are...</p>
+                    
+                    <div class="support-links">
+                        <div class="support-item">
+                            <strong>Official Support Forum:</strong><br>
+                            <a href="http://www.psx-place.com/forums/PS3Xploit/">http://www.psx-place.com/forums/PS3Xploit/</a>
+                        </div>
+                        
+                        <div class="support-item">
+                            <strong>Social Media:</strong><br>
+                            <a href="https://gab.com/PS3Xploit">https://gab.com/PS3Xploit</a>
+                        </div>
+                    </div>
+                    
+                    <div class="logo-credit">
+                        <small>PS3Xploit Logo by StarMelter</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Simple JS to handle potential PS3 browser limitations
+        window.onload = function() {
+            // Check if we're likely on a PS3 browser
+            var isPS3 = navigator.userAgent.indexOf('PlayStation 3') !== -1 || 
+                        navigator.userAgent.indexOf('PLAYSTATION 3') !== -1;
+            
+            // If on PS3, ensure maximum compatibility
+            if (isPS3) {
+                // Hide modern announcement bar and show marquee instead
+                document.querySelector('.announcement-bar').style.display = 'none';
+                document.getElementById('headline').style.display = 'block';
+                
+                // Simplify any complex styles if needed
+                var buttons = document.querySelectorAll('.cta-button');
+                for (var i = 0; i < buttons.length; i++) {
+                    buttons[i].style.border = '2px solid #228be6';
+                }
+            }
+        };
+    </script>
 </body>
 </html>
